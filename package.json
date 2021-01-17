@@ -1,0 +1,10 @@
+{
+  "name": "aws-lambda-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nguyen Van Long",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^2.0.3"
+  }
+}
