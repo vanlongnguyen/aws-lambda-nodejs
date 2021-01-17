@@ -6,5 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "uuid": "^2.0.3"
+  },
+  "scripts": {
+    "invoke-populate": "serverless invoke local -f --stage dev --region us-east-1 populate",
+    "invoke-list": "serverless invoke local -f --stage dev --region us-east-1 list",
+    "invoke-query": "serverless invoke --f query --stage dev --region us-east-1 --data '{"name": "mac","email": "mac@example"}"
   }
 }
